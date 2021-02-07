@@ -1,0 +1,92 @@
+PS C:\Users\macie\Desktop\Nikto> cd .\nikto\program\
+PS C:\Users\macie\Desktop\Nikto\nikto\program> perl .\nikto.pl -h http://localhost:3000/ 
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          127.0.0.1
++ Target Hostname:    localhost
++ Target Port:        3000
++ Start Time:         2021-02-07 16:28:45 (GMT1)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ Retrieved access-control-allow-origin header: *
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Entry '/ftp/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ "robots.txt" contains 1 entry which should be manually viewed.
++ /database.cer: Potentially interesting backup/cert file found. 
++ /archive.tar.bz2: Potentially interesting backup/cert file found. 
++ /backup.war: Potentially interesting backup/cert file found. 
++ /localhost.egg: Potentially interesting backup/cert file found. 
++ /site.pem: Potentially interesting backup/cert file found. 
++ /dump.alz: Potentially interesting backup/cert file found. 
++ /backup.egg: Potentially interesting backup/cert file found. 
++ /127.0.0.1.tar.bz2: Potentially interesting backup/cert file found. 
++ /dump.tar.lzma: Potentially interesting backup/cert file found. 
++ /127.0.0.1.cer: Potentially interesting backup/cert file found. 
++ /archive.cer: Potentially interesting backup/cert file found. 
++ /dump.war: Potentially interesting backup/cert file found. 
++ /archive.egg: Potentially interesting backup/cert file found. 
++ /backup.alz: Potentially interesting backup/cert file found. 
++ /database.jks: Potentially interesting backup/cert file found. 
++ /database.pem: Potentially interesting backup/cert file found. 
++ /database.egg: Potentially interesting backup/cert file found. 
++ /127.0.0.1.egg: Potentially interesting backup/cert file found. 
++ /site.tar.lzma: Potentially interesting backup/cert file found. 
++ /localhost.alz: Potentially interesting backup/cert file found. 
++ /localhost.jks: Potentially interesting backup/cert file found. 
++ /site.cer: Potentially interesting backup/cert file found. 
++ /localhost.tar.bz2: Potentially interesting backup/cert file found. 
++ /dump.egg: Potentially interesting backup/cert file found. 
++ /backup.jks: Potentially interesting backup/cert file found. 
++ /site.tar.bz2: Potentially interesting backup/cert file found. 
++ /dump.jks: Potentially interesting backup/cert file found. 
++ /localhost.pem: Potentially interesting backup/cert file found. 
++ /archive.tar: Potentially interesting backup/cert file found. 
++ /site.war: Potentially interesting backup/cert file found. 
++ /site.tgz: Potentially interesting backup/cert file found. 
++ /site.egg: Potentially interesting backup/cert file found. 
++ /backup.tar: Potentially interesting backup/cert file found. 
++ /archive.alz: Potentially interesting backup/cert file found. 
++ /backup.tar.lzma: Potentially interesting backup/cert file found. 
++ /localhost.tar: Potentially interesting backup/cert file found. 
++ /localhost.cer: Potentially interesting backup/cert file found. 
++ /database.tgz: Potentially interesting backup/cert file found. 
++ /127.0.0.1.tar.lzma: Potentially interesting backup/cert file found. 
++ /127.0.0.1.war: Potentially interesting backup/cert file found. 
++ /localhost.war: Potentially interesting backup/cert file found. 
++ /database.tar.lzma: Potentially interesting backup/cert file found. 
++ /dump.tgz: Potentially interesting backup/cert file found. 
++ /dump.tar.bz2: Potentially interesting backup/cert file found. 
++ /dump.cer: Potentially interesting backup/cert file found. 
++ /archive.pem: Potentially interesting backup/cert file found. 
++ /127.0.0.1.tar: Potentially interesting backup/cert file found. 
++ /backup.pem: Potentially interesting backup/cert file found. 
++ /archive.tgz: Potentially interesting backup/cert file found. 
++ /database.alz: Potentially interesting backup/cert file found. 
++ /localhost.tar.lzma: Potentially interesting backup/cert file found. 
++ /archive.jks: Potentially interesting backup/cert file found. 
++ /archive.tar.lzma: Potentially interesting backup/cert file found. 
++ /dump.pem: Potentially interesting backup/cert file found. 
++ /backup.tgz: Potentially interesting backup/cert file found. 
++ /site.alz: Potentially interesting backup/cert file found. 
++ /dump.tar: Potentially interesting backup/cert file found. 
++ /127.0.0.1.jks: Potentially interesting backup/cert file found. 
++ /archive.war: Potentially interesting backup/cert file found. 
++ /127.0.0.1.tgz: Potentially interesting backup/cert file found. 
++ /backup.cer: Potentially interesting backup/cert file found. 
++ /127.0.0.1.pem: Potentially interesting backup/cert file found. 
++ /site.jks: Potentially interesting backup/cert file found. 
++ /localhost.tgz: Potentially interesting backup/cert file found. 
++ /site.tar: Potentially interesting backup/cert file found. 
++ /127.0.0.1.alz: Potentially interesting backup/cert file found. 
++ /database.war: Potentially interesting backup/cert file found. 
++ /backup.tar.bz2: Potentially interesting backup/cert file found. 
++ /database.tar: Potentially interesting backup/cert file found. 
++ /database.tar.bz2: Potentially interesting backup/cert file found. 
++ OSVDB-3092: /ftp/: This might be interesting.
++ OSVDB-3092: /public/: This might be interesting.
++ ERROR: Error limit (20) reached for host, giving up. Last error: 
++ Scan terminated:  2 error(s) and 75 item(s) reported on remote host
++ End Time:           2021-02-07 16:32:17 (GMT1) (212 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+PS C:\Users\macie\Desktop\Nikto\nikto\program> 
